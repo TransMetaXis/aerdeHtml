@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- Custom PreHead code is injected here -->
+    <!-- Custom PreHead code is injected here -maximums-scale=1.0- for viewport (1 / window.devicePixelRatio) for script initial scale-->
     
 
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name ="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+<script>
+    document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=' + 0.6 + ', maximum-scale=1.0, user-scalable=0');
+</script>
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta charset="utf-8"/>
 
