@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- Custom PreHead code is injected here -maximums-scale=1.0- for viewport (1 / window.devicePixelRatio) for script initial scale-->
+    <!-- Custom PreHead code is injected here -->
     
 
     <head>
@@ -28,8 +28,6 @@
                 margin: 0px;
                 padding: 0px;
                 border: 0px;
-                overflow: hidden;
-                background: #000;
             }
 
             canvas {
@@ -42,16 +40,12 @@
                 border: 0px;
             }
             :-webkit-full-screen #canvas {
-                display: block;
                 width: 100%;
                 height: 100%;
-                object-fit: contain;
             }
             :-webkit-full-screen {
-                display: block;
                 width: 100%;
                 height: 100%;
-                object-fit: contain;
             }
             
             /* Custom Runner Styles */
@@ -96,39 +90,40 @@
     
 
     <body>
+        <!-- Custom BodyStart code is injected here -->
+        
+
         <div class="gm4html5_div_class" id="gm4html5_div_id">
             
             <!-- Builtin injector for splash screen -->
             
 
+            <!-- Custom PreCanvas code is injected here -->
+            
+
             <!-- Create the canvas element the game draws to -->
-            <canvas id="canvas" width="1280" height="720" >
+            <canvas id="canvas" width="1289" height="720" >
+                
                 <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
+            
+            <!-- Custom PostCanvas code is injected here -->
+            
         </div>
 
         <!-- Run the game code -->
-        <script type="text/javascript" src="html5game/AerdeFeb182025NoObjects.js?cachebust=881997361"></script>
+        <script type="text/javascript" src="html5game/Aerde - Apr 1 2025.js?cachebust=473047445"></script>
 
         <!-- Builtin injector for injecting runner path -->
         
 
         <script>window.onload = GameMaker_Init;</script>
 
-        <script>
-        function init() {
-          if (window.innerWidth < 50 || window.innerHeight < 50) {
-            setTimeout(init, 150);
-            return;
-              }
-      // ... rest of your init
-            }
-        init();
-      </script>
-
         <!-- Builtin injector for injecting google analytics code -->
         
 
+        <!-- Custom BodyEnd code is injected here -->
+        
     </body>
 
     <!-- Custom PostBody code is injected here -->
